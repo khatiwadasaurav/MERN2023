@@ -24,7 +24,8 @@
       "executor": "@nrwl/vite:dev-server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "mern2022:build"
+        "buildTarget": "mern2022:build",
+        "proxyConfig": "./proxy.conf.json"
       },
       "configurations": {
         "development": {
